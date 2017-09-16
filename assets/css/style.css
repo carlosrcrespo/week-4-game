@@ -1,0 +1,21 @@
+
+
+body {
+	background-image: url("../images/circles-and-roundabouts.png");
+	}
+
+div.jumbotron {
+	text-align: center;
+	background-color: #ADD8E6;
+}
+
+img.crystalImage {
+
+	width: 150px;
+}
+
+img.crystalImage:hover {
+	width:180px;
+
+
+}

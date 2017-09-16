@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Crystal Collector!</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  
+</head>
+
+<body>
+  <div id="container-fluid">
+  <div id = "wrapper">
+    <div class="jumbotron">
+    <h1>Crystal Collectors!</h1>
+  </div>
+
+    <div class="row">
+    <div class="col-8 mx-auto">
+        <div class="nauk-info-connections text-center">
+            <div id="instructions">
+      <h3>Instructions</h3><hr>
+      <p>You will be given a random number at the start of the game.</p>
+      <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+      <p> You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number. </p>
+      <p>The value of each crystal is hidden from you until you click on it.</p>
+      <p> Each time the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+    <div class = "container">
+      <div id="guessingNumber">
+        <h2>Number to Guess: <span class="value"></span></h2>   
+      </div>
+
+      <div id="scoreboard">
+        <h3><span id="status"></span></h3>
+        <h3>Wins: <span id="win"> </span>     Losses: <span id="loss"></span></h3>
+        <br><br>
+      </div>
+    </div>
+
+
+    <div id="crystals"></div>
+
+    <div id ="totalScore">
+      <br><br><h2 id = "yts">Your Total Score is: <span id ="yourScore">0</span></h2>
+      <br><br><br>
+    </div>
+        </div>
+    </div>
+</div>
+    
+
+  </div>
+  <!-- adding jQuery -->
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </div>
+</body>
+</html>
